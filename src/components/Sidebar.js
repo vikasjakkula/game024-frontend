@@ -12,6 +12,7 @@ import {
   Dashboard as DashboardIcon,
   SportsEsports as GameIcon,
   Home as HomeIcon,
+  List as ListIcon,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import { useTheme } from 'next-themes';
@@ -34,6 +35,7 @@ const menuItems = [
   { text: 'Dashboard', icon: <DashboardIcon />, path: '/' },
   { text: 'Main', icon: <HomeIcon />, path: '/main' },
   { text: 'Coin Game', icon: <GameIcon />, path: '/coin-game' },
+  { text: 'Todo List', icon: <ListIcon />, path: '/todo-list' },
 ];
 
 const Sidebar = ({ open, onClose }) => {

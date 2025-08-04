@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import Main from './pages/main.js';
 import CoinGame from './pages/CoinGame';
+import TodoList from './pages/TodoList';
 import LoadingScreen from './components/LoadingScreen';
 import { PrecisionManufacturing } from '@mui/icons-material';
 import { ThemeProvider } from './components/ThemeProvider';
@@ -36,6 +37,7 @@ function App() {
             <Route index element={<Dashboard />} />
             <Route path="main" element={<Main />} />
             <Route path="coin-game" element={<CoinGame />} />
+            <Route path="todo-list" element={<TodoList />} />
             <Route path="Pricing" element={<PrecisionManufacturing />} />
           </Route>
         </Routes>
